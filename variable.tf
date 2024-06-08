@@ -1,7 +1,7 @@
 variable "gcp_credentials" {
   type        = string
   sensitive   = true
-  description = "Google Cloud service account credentials"
+  description = "Google Cloud service account credential"
 }
 variable "region" {
   description = "The region to deploy to"
